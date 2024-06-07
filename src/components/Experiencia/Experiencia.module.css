@@ -1,0 +1,75 @@
+.experiencia_container{
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.experiencia_container.light{
+  background-color: var(--var-bg-section);
+}
+
+.experiencia_container.dark{
+  color: #CCCCCC;
+  background-color: var(--var-bg-section-dark);
+}
+
+
+.experiencia_container.light h2 {
+  color: #32333c;
+}
+
+.experiencia_container.light p {
+  color: #8a8fa3;
+}
+
+.conteiner_texto h2 {
+  position: relative;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.conteiner_texto h2::before{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100px;
+  height: 4px;
+  background-color: #feb633;
+}
+
+.conteiner_texto p {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 770px;
+  width: 100%;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.container_cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.limitar_secao {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container_cards {
+    flex-direction: column;
+  }
+}

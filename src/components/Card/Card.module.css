@@ -1,0 +1,54 @@
+.card_light {
+  color: #32333c;
+  border: 1px solid #edecec;
+}
+
+.card_dark {
+  border: 1px solid #ffffff0d;
+}
+
+.card_dark h4{
+  color: #ffffff;
+}
+
+.card_dark p {
+  color: #9F9F9F;
+}
+
+.card {
+  width: 30%;
+  padding: 70px 30px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.card:hover{
+  background-color: #feb633;
+  transition: all 1s;
+}
+
+.card h4 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.primeiroParagrafo {
+  margin-bottom: 5px;
+}
+
+.segundoParagrafo {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: auto;
+  }
+}

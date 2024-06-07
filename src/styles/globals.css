@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --color-text-hero: #022144;
+  --var-bg-hero: #FAFBFC;
+  --yellow: #FeB633;
+
+  /* Paleta de cores tema claro*/
+  --var-bg: #FFFFFF;
+  --var-bg-section: #F6F8FC;
+  --color-text-header: #32333C;
+  --color-text: #8A8FA3;
+
+  /* Paleta de cores tema claro*/
+  --var-bg-dark: #252525;
+  --var-bg-section-dark: #393838;
+  --color-text-header-dark: #CCCCCC;
+  --color-text-dark: #9F9F9F;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+}
+
+.light-mode{
+  color: var(--color-text);
+  background-color: var(--var-bg);
+}
+
+.light-mode .section {
+  background-color: var(--var-bg-section);
+}
+
+.light-mode .text-header {
+  color: var(--color-text-header);
+}
+
+.light-mode .text{
+  color: var(--color-text);
+}
+
+.dark-mode{
+  color: var(--color-text-dark);
+  background-color: var(--var-bg-dark);
+}
+
+.dark-mode .section {
+  background-color: var(--var-bg-section-dark);
+}
+
+.dark-mode .text-header {
+  color: var(--color-text-header-dark);
+}
+
+.dark-mode .text{
+  color: var(--color-text-dark);
+}
