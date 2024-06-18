@@ -33,7 +33,7 @@ const Rodape = (props) => {
       </div>
       <div className={styles.copyright}>
         <p>
-          Copyright {ano} &copy; <span>Desenvolvido por Fabinho Flauzino.</span>
+          Copyright {ano} &copy; <span>Desenvolvido por Aline Melo.</span>
         </p>
       </div>
     </footer>
